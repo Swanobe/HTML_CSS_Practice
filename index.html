@@ -4,53 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Learning HTML</title>
+    <link rel="stylesheet" href="index.css">
+    <title>Marioclub</title>
 </head>
 <body>
+<header>
+    <h1>Marioclub</h1>
+</header>
+<section class="banner">
+    <img src="img/banner.png" alt="marioclub welcome banner">
+    <div class ="welcome">
+        <h2>Welcome to <br> <span>Marioclub</span></h2>
+    </div>
+</section>
+<nav class="main-nav">
+    <ul>
+        <li><a herf="/join.html" class="join">Join the club</a></li>
+        <li><a herf="/news.html">Lates News</a></li>
+        <li><a herf="/games.html">New Games</a></li>
+        <li><a herf="/contact.html"">Contact</a></li>
+    </ul>
+</nav>
+<main>
+    <article>
+        <h2>It's a me, Mario</h2>
+        <p>navfnvsofndnavfnvsofnd i nsong osngbnasgpig ign pognfp oinadgoi n[agoin aogn[b uanavfnvsofnd i nsong osngbnasgpig ign pognfp oinadgoi n[agoin aogn[b uanavfnvsofnd i nsong osngbnasgpig ign pognfp oinadgoi n[agoin aogn[b uanavfnvsofnd i nsong osngbnasgpig ign pognfp oinadgoi n[agoin aogn[b uanavfnvsofnd i nsong osngbnasgpig ign pognfp oinadgoi n[agoin aogn[b uanavfnvsofnd i nsong osngbnasgpig ign pognfp oinadgoi n[agoin aogn[b uanavfnvsofnd i nsong osngbnasgpig ign pognfp oinadgoi n[agoin aogn[b ua i nsong osngbnasgpig ign pognfp oinadgoi n[agoin aogn[b uag</p>
+    </article>
 
-    <h1> HTML FORMS </h1>
-    <p>Hello</p>
-    <p> My revision webpage</p>
+    <ul>
+        <li><img src="img/thumb-1.png" alt="a picture of mario jumpting"></li>
+        <li><img src="img/thumb-2.png" alt="mario  underwater"></li>
+    </ul>
+    <section class="join">
+        <h2>Join today!</h2>
+        <p>gnfp oinadgoi n[agoin aogn[b uanavfnvsofnd i nsong osngbnasgpig ign pognfp oinadgoi n[agoin aogn[b uanavfnvsofnd i nsong osngbnasgpig ign pognfp oinadgoi n[agoin aogn[b uanavfnvsofnd i nsong osngbnasgpig ign pognfp oinadgoi n[agoin aogn[b uanavfnvsofnd i nsong osngbnasgpig ign pognfp oinadgoi n[agoin aogn[b ua i nsong osngbnasgpig ign pognfp oinadgoi n[agoin aogn[b uag</p>
+        <form>
+            <input type="email" name="email" placeholder="Type email and hit enter!" required>
+        </form>
 
-    <form>
-        <label for="username"> Enter username:</label>
-        <input type="text" id="username" name="username" placeholder="username">
-        <br><br>
-        <label for="email">Enter email:</label>
-        <input type="email" id="email" name="email" placeholder="Your email">
-        <br><br>
-        <label for="password">password:</label>
-        <input type="password" id="password" name="password" placeholder="Choose a password">
-
-        <p> Select your age:</p>
-        <input type="radio" name="age" value="0-25" id="option-1">
-        <label for="option-1">0-25</label>
-        <input type="radio" name="age" value="26-50" id="option-2">
-        <label for="option-2">26-50</label>
-        <input type="radio" name="age" value="51+" id="option-3">
-        <label for="option-3">0-25</label>
-
-        <br><br>
-        
-        <label for="question">Security Questions:</label>
-        <select name="quesion" id="quesion">
-            <option value="q1">What are your favourite pair of socks?</option>
-            <option value="q2">What would be your super power?</option>
-            <option value="q3">What is your best ever security questions</option>
-        </select>
-
-        <br><br>
-
-        <label for="answer">Security question answer:</label>
-        <input type="text" id="answer" name="answer">
-
-        <br><br>
-        <label for="bio">Your bio:</label><br>
-        <textarea name="bio" id="bio" cols="50" rows="10" placeholder="About you..."></textarea>
-
-        <button></button>
-        <input type="submit" value="Submit form">
-
-    </form>
+    </section>
+    <footer>
+        <p class="copyright">I do not own any of the rights on this page this is for practice and learning purposes</p>
+    </footer>
+    
+</main>
 </body>
 </html>
